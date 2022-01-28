@@ -75,8 +75,46 @@
 .second-section .btn i {
     float: right;
 }
-
 /*End of header section*/
 
 /*Start of head-card section*/
+.head-card {
+    background-color: darkgray;
+}
+
+.container-1 {
+    margin: 0 12em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1, .card2, .card3 {
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px 30px;
+    margin-top: -70px;
+    width: 18vw;
+    box-shadow: 2px 3px 5px rgb(49, 47, 47);
+}
+
+.card3 {
+    background-color: blue;
+    color: white;
+}
+
+.icon-1 {
+    color: blue;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.icon-2 {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.h3head-card{
+    margin-bottom: 10px;
+}
 /*End of head-card section*/
