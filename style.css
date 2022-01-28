@@ -122,12 +122,12 @@
 
 /*Start of the more section*/
 .more {
-    background-color: brown;
+    /*background-color: brown;*/
 }
 
 .container-2 {
-    background-color: chartreuse;
-    margin: 7em 7em;
+    /*background-color: chartreuse;*/
+    margin: 7em 12em;
     display: flex;
     justify-content: space-between;
 }
