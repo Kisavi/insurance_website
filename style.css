@@ -65,7 +65,7 @@
     width: 15em;
     padding: 10px 15px;
     color: white;
-    background-color: #252B42;
+    background-color: #007deb;
     border-style: none;
     border-radius: 5px;
     font-weight: bold;
@@ -75,6 +75,37 @@
 .second-section .btn i {
     float: right;
 }
+
+.header-texts {
+    margin: 12em;
+    color: white;
+    text-align: center;
+}
+
+.header-texts h2 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.header-texts p {
+    margin-bottom: 3em;
+}
+
+.extra-buttons .btn1, .btn2 {
+    background-color: #007deb;
+    color: white;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: white 1px solid;
+    margin-left: 0.75em;
+}
+
 /*End of header section*/
 
 /*Start of head-card section*/
