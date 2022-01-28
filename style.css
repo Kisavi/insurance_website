@@ -10,7 +10,6 @@
     background-size: cover;
     width: 100%;
     height: 100vh;
-    position: absolute;
 }
 
 .nav-bar {
@@ -78,3 +77,6 @@
 }
 
 /*End of header section*/
+
+/*Start of head-card section*/
+/*End of head-card section*/
