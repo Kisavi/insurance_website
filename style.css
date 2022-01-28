@@ -203,6 +203,7 @@
     text-align: center;
     padding: 2em;
     border: grey 1px solid;
+    border-radius: 5px;
     height: 290px;
 }
 
@@ -222,6 +223,16 @@
 
 .checked {
     color: orange;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.logo-container {
+    margin-top: 15em;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*End of industry section*/
