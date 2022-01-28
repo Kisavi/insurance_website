@@ -179,12 +179,49 @@
     background-color: rgb(214, 212, 214);
 }
 
+.container-3 {
+    margin: 0 12em;
+    }
+
 .industry-heading{
     padding-top: 7em;
     text-align: center;
 }
 
-.container-3 {
-margin: 0 12em;
+.industry-heading h2 {
+    margin-bottom: 0.5em;
 }
+
+.card-container {
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card5 {
+    background-color: white;
+    text-align: center;
+    padding: 2em;
+    border: grey 1px solid;
+    height: 290px;
+}
+
+.card5-img {
+    height: 150px;
+}
+
+.card5 p {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.star-container {
+    text-align: center;
+    margin-top: 0.7em;
+}
+
+.checked {
+    color: orange;
+}
+
 /*End of industry section*/
