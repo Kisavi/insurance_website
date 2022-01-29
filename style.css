@@ -439,4 +439,30 @@ span {
 }
 /*End of appointment section*/
 
+/*Start of footer section*/
+.footer-links-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 13em 4em 10em;
+}
+
+.company-info {
+    line-height: 2.5em;
+}
+
+.company-info li {
+    list-style: none;
+}
+
+.git {
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+.f-icon {
+    padding-right: 0.6em;
+    color: blue;
+}
+
 
