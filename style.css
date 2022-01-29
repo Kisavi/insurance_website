@@ -272,4 +272,91 @@ input {
     margin-bottom: 1em;
 }
 
+.card-container2 {
+    margin: 4em 12em;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.card7 {
+    height: 460px;
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    border: 1px blue solid;
+    border-radius: 8px;
+}
+
+.middle-card {
+    height: 500px;
+    margin-top: -2.4em;
+    background-color: rgb(5, 5, 39);
+    color: white;
+}
+
+.card7 h4 {
+    margin-bottom: 1.5em;
+}
+
+.card7 h5 {
+    margin-bottom: 2.3em;
+}
+
+.price {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.check {
+    color: green;
+}
+
+.not-checked {
+    color: grey;
+}
+
+span {
+    font-size: 13px;
+}
+
+.card-detail {
+    display: flex;
+}
+
+.btn4 {
+    color: white;
+    background-color: blue;
+    padding: 0.7em 3.3em;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 0.7em;
+}
 /*End of industry section*/
+/*Start of world section*/
+.world-section {
+    background-color: rgb(46, 46, 109);
+    margin-top: 5em;
+}
+
+.world-container {
+    padding: 5em 8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.world-text {
+    color: white;
+}
+
+.world-text h3{
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 0.7em;
+}
+
+.world {
+    height: 230px;
+}
+/*End of world section*/
