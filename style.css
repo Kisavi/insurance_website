@@ -274,7 +274,6 @@ input {
 
 .card-container2 {
     margin: 4em 12em;
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
 }
@@ -334,10 +333,12 @@ span {
     margin-top: 0.7em;
 }
 /*End of industry section*/
+
 /*Start of world section*/
 .world-section {
     background-color: rgb(46, 46, 109);
     margin-top: 5em;
+    padding-bottom: 20em;
 }
 
 .world-container {
@@ -360,3 +361,64 @@ span {
     height: 230px;
 }
 /*End of world section*/
+
+/*Start of appointment section*/
+.appointment {
+    border: red 1px solid;
+}
+
+.appointment-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.f-image {
+    height: 600px;
+    margin-top: -20em;
+}
+
+.appointment-form {
+    padding: 2em 2em 0 0;
+    margin-top: -20em;
+    background-color: white;
+    width: 50%;
+}
+
+.appointment-form h3 {
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 2em;
+}
+
+.label-control {
+    line-height: 2em;
+}
+
+.form-input {
+    background-color: rgb(230, 222, 222);
+    width: 100%;
+    border-style: none;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 1em;
+}
+
+.selector {
+    padding: 1em;
+}
+
+.sbutton {
+    color: white;
+    background-color: blue;
+    padding: 1em;
+    border-style: none;
+    margin-top: 2em;
+    width: 100%;
+    border-radius: 5px;
+}
+/*End of appointment section*/
+
+
