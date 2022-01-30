@@ -189,7 +189,7 @@
     }
     .world-container {
         flex-direction: column;
-        padding: 5em 2em;
+        padding: 5em 1.9em;
     }
 
     .world-text {
@@ -212,6 +212,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 .f-image {
@@ -242,19 +243,22 @@
 
 .consult {
     flex-direction: column;
-    align-items: center;
     padding: 0;
-    margin: 2em 0;
+    padding-bottom: 4em;
 }
 
 .c-text {
     font-size: 1.2em;
-    margin: 1em 5em;
+    margin: 3em 5em;
     line-height: 1.3em;
 }
 
 .c-text h3 {
     margin-bottom: 1em;
+}
+
+.contact-us {
+    padding-left: 6em;
 }
 
 /*End of appointment section*/
@@ -280,5 +284,8 @@
     padding: 1em 3.7em;
 }
 
-
+.f-note {
+    margin-bottom: 1em;
+}
+/*End of footer section*/
 }

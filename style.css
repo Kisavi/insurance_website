@@ -265,7 +265,7 @@ form {
     margin: 0 2em;
 }
 
-input {
+.newsletter-input {
     height: 2.5em;
     padding: 0 1em;
 }
@@ -384,12 +384,11 @@ span {
 
 /*Start of appointment section*/
 .appointment {
-    border: red 1px solid;
     background-color: #f7fafd;
 }
 
 .appointment-container {
-    background-color: white;
+    background-color: #f7fafd;
     display: flex;
     justify-content: center;
 }
@@ -423,12 +422,13 @@ span {
 }
 
 .form-input {
-    background-color: rgb(230, 222, 222);
     width: 100%;
-    border-style: none;
-    border-radius: 5px;
+    padding: 12px 20px;
     margin: 8px 0;
-    padding: 1em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .selector {
