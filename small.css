@@ -1,15 +1,26 @@
 @media only screen and (max-width: 480px) {
 
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /*Start of header section*/
+    .header-container {
+        height: 1200px;
+    }
+
     .first-section {
         width: 100%;
-        padding: 1em 3em;
+        padding: 2em;
         background-color: white;
         color: black;
         display: flex;
         flex-direction: column;
     }
 
-    .logo h2{
+    .logo h2 {
         color: black;
     }
 
@@ -52,6 +63,222 @@
         color: black;
     }
 
+    .header-texts {
+        margin: 2em 5em;
+    }
+
+    .header-texts h2 {
+        text-align: center;
+        font-size: 29px;
+    }
+
+    .header-texts p {
+        margin-top: 1em;
+        margin-bottom: 2em;
+        padding: 0 1.5em;
+    }
+
+    .extra-buttons .btn1 {
+        margin-bottom: 1.5em;
+    }
+
+    /*End of header section*/
+
+    /*Start of head-card section*/
+
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        background-color: white;
+        margin-bottom: 4.3em;
+        padding: 15px 30px;
+        margin-bottom: 100px;
+        width: 45vw;
+        border-style: none;
+    }
+
+    .card3 {
+        background-color: #23A6F0;
+        color: white;
+    }
+
+    /*End of head-card section*/
+
+    /*Start of more section*/
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .card4 {
+        margin: 3em;
+    }
+
+    /*End of more section*/
+
+    /*Start of industry section*/
+    .container-3 {
+        margin: 0 3em;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card5 {
+        margin-bottom: 3em;
+    }
+
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10em;
+    }
+
+    .logo-img {
+        height: 50px;
+        padding: 0 6em;
+        margin-bottom: 3em;
+    }
+
+    .newsletter {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    form {
+        margin: 0;
+        padding: 1em 0;
+    }
+
+    .card-container2 {
+        margin: 2em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-detail {
+        justify-content: center;
+    }
+
+    .card7 {
+        margin-bottom: 2em;
+    }
+
+    .middle-card {
+        margin-top: 0;
+    }
+
+    /*End of industry section*/
+
+    /*Start of world section*/
+
+    .world-section {
+        padding-bottom: 5em;
+    }
+    .world-container {
+        flex-direction: column;
+        padding: 5em 2em;
+    }
+
+    .world-text {
+        margin-bottom: 9em;
+    }
+
+    .world {
+        height: 100px;
+    }
+
+    /*End of world section*/
+
+/*Start of appointment section*/
+.appointment {
+    border: none;
+}
+
+.appointment-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.f-image {
+    height: 400px;
+    width: 100vw;
+    margin-top: 0;
+}
+
+.appointment-form {
+    width: 100%;
+    margin-top: 0;
+    margin: 1em 5em;
+}
+
+.desktop-h3 {
+    display: none;
+}
+
+.mobile-h3 {
+    display: block;
+    font-size: 3em;
+    padding: 0 1.2em;
+}
+
+.form-group {
+    padding: 0 4em;
+}
+
+.consult {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 2em 0;
+}
+
+.c-text {
+    font-size: 1.2em;
+    margin: 1em 5em;
+    line-height: 1.3em;
+}
+
+.c-text h3 {
+    margin-bottom: 1em;
+}
+
+/*End of appointment section*/
+
+/*Start of footer section*/
+.footer-links-container {
+    flex-direction: column;
+    padding: 2em 0 2em 4em;
+}
+
+.company-info {
+    margin-bottom: 1em;
+}
+
+.company-info li {
+    padding-left: 0.15em;
+}
+
+.footer-end-container {
+    flex-direction: column;
+    padding-top: 1em;
+    margi: 1.5em 3em;
+    padding: 1em 3.7em;
+}
 
 
 }
