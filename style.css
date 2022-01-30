@@ -70,6 +70,10 @@
 
 }
 
+.second-section .btn i {
+    float: right;
+}
+
 .header-texts {
     margin: 12em;
     color: white;
@@ -490,5 +494,4 @@ span {
     justify-content: space-between;
     font-size: 20px;
 }
-
 /*End of footer section*/
